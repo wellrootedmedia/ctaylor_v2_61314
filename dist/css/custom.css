@@ -8,7 +8,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #666;
     line-height: 1;
     font-weight: 300;
@@ -755,7 +755,8 @@ div.navbar-collapse.collapse {
 
 .jumbotron p {
     font-size: 15px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
 }
 .spacer {
     width: 1000px;
