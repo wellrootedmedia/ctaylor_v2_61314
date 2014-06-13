@@ -19,9 +19,6 @@ and (min-width : 1224px) {
 }
 
 @media (max-width: 1200px) {
-    .navbar-default .navbar-nav li a {
-        font-size: inherit;
-    }
     .navbar-nav > li {
         width: 188px;
     }
@@ -64,6 +61,7 @@ and (min-width : 1224px) {
     .container .jumbotron h1 {
         font-size: inherit;
         margin-top: 10px;
+        width: 84%;
     }
 
     .blue-ribbon {
@@ -95,18 +93,13 @@ and (min-width : 1224px) {
         position: relative;
         top: 0;
     }
-    .navbar-default .navbar-nav li a {
-        font-size: inherit;
-    }
+
     .sub {
         font-size: inherit;
     }
     .navbar .navbar-logo {
         position: relative;
         right: 50px;
-    }
-    .navbar-nav > li {
-        width: 144px;
     }
     .device-navigation {
         display: block;
@@ -194,6 +187,12 @@ and (orientation : portrait) {
     /* Styles */
 }
 
+@media (max-width:768px) {
+    .navbar-nav > li {
+        width: 147px;
+    }
+}
+
 @media (max-width: 767px) {
     .post-date {
         float: none;
@@ -202,6 +201,7 @@ and (orientation : portrait) {
     .navbar-nav > li {
         width: 100%;
     }
+
     .menu-navigation-container .navigation-nav li:after {
         font-size: inherit;
         content: ' | ';

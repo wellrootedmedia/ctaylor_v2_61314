@@ -145,7 +145,7 @@ foreach ($rcp as $rcp) {
             <div class="container">
 
                 <div class="navbar-header">
-                    <section class="navbar-menu-display">Menu --></section>
+                    <section class="navbar-menu-display"></section>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
